@@ -1,0 +1,14 @@
+{
+  "name": "xichuanzhu-one",
+  "version": "0.0.1",
+  "homepage": "https://github.com/xichuangzhu/xichuanzhu-one",
+  "authors": [
+    "hustlzp <hustlzp@qq.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "normalize.css": "~3.0.3",
+    "fonts.css": "~1.3.1"
+  }
+}

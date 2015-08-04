@@ -1,0 +1,39 @@
+/*!
+ *  Fonts.css -- Cross-platform Chinese fonts solution
+ * 
+ *  Copyright (C) 2013-2014 Zeno Zeng
+ *  Released under the MIT license
+ * 
+ *  Github: https://github.com/zenozeng/fonts.css
+ */
+a {
+  text-decoration: none;
+  color: #333;
+}
+a:hover {
+  border-bottom: 1px solid #333;
+}
+body .logo {
+  border-radius: 3px;
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  width: 30px;
+  height: 30px;
+}
+body .quote-wap {
+  display: none;
+  text-align: center;
+  width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: Baskerville, "Times New Roman", "Liberation Serif", STFangsong, FangSong, FangSong_GB2312, "CWTEX\-F", serif;
+}
+body .quote-wap .quote {
+  font-size: 40px;
+}
+body .quote-wap .meta {
+  margin-top: 30px;
+  font-size: 18px;
+  text-align: right;
+}
