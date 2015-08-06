@@ -4,8 +4,10 @@ $(window).resize(function () {
     adjustPosition();
 });
 
-getQuote();
-intervalId = setInterval(getQuote, 8000);
+setTimeout(function () {
+    getQuote();
+    intervalId = setInterval(getQuote, 8000);
+}, 1000);
 
 $(window).focus(function () {
     console.log('in');
