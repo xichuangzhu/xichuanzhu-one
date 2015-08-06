@@ -1,6 +1,5 @@
 var intervalId = 0;
 
-adjustPosition();
 $(window).resize(function () {
     adjustPosition();
 });
@@ -36,6 +35,7 @@ function getQuote() {
             //$('.author').text(quote.author);
             //$('.work').text("《" + quote.work + "》");
             $('.quote-wap').fadeIn('slow');
+            adjustPosition();
         });
     });
 }
@@ -44,6 +44,6 @@ function getQuote() {
  * 调整quote-wap位置
  */
 function adjustPosition() {
-    $('.quote-wap').css('marginTop', ($(window).height() - 100) / 2.0 - 20);
+    var $quoteWap = $('.quote-wap');
+    $quoteWap.css('marginTop', ($(window).height() - $quoteWap.height()) / 2.0 - 20);
 }
-
